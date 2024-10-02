@@ -21,10 +21,14 @@ public class Main {
         Secuencial.main(array, "CR7");
     }
 
+    public static void ordenamiento() {
+        Ordenamiento.main("insercion", "Desc");
+    }
     public static void main(String[] args) {
 //        insercion();
 //        burbuja();
-        seleccion();
+//        seleccion();
 //        secuencial();
+        ordenamiento();
     }
 }

@@ -12,7 +12,7 @@ public class Burbuja {
                     array[i-1] = array[i];
                     array[i] = aux;
                     intercambiado = true;
-                } else if ( orden.equals("Desc") && array[i-1] < array[i]  ) {
+                } else if ( orden.equals("Desc") && array[i-1] < array[i] ) {
                     int aux = array[i-1];
                     array[i-1] = array[i];
                     array[i] = aux;
@@ -21,7 +21,7 @@ public class Burbuja {
             }
         } while (intercambiado);
         for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+            System.out.print(array[i] + " | ");
         }
     }
 }
