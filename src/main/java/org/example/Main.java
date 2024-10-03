@@ -8,7 +8,7 @@ public class Main {
 
     public static void burbuja(){
         int[] array = {10,7,2,6,3,1,5,4};
-        Burbuja.main(array, "Desc");
+        Burbuja.main(array, "Asc");
     }
 
     public static void seleccion() {
@@ -24,11 +24,17 @@ public class Main {
     public static void ordenamiento() {
         Ordenamiento.main("insercion", "Desc");
     }
+
+    public static void promedi() {
+        Promedio.main();
+    }
+
     public static void main(String[] args) {
 //        insercion();
 //        burbuja();
 //        seleccion();
 //        secuencial();
-        ordenamiento();
+//        ordenamiento();
+        promedi();
     }
 }
